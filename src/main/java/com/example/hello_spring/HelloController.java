@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/test")
     public String test() {
-        return "This is a test endpoint and yes!";
+        return "This is a test endpoint!";
     }
     
 }
