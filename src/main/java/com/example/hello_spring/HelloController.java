@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/buld")
     public String buld() {
-        return "This is a build from gt to jen!";
+        return "This is a build from git to jenkins!";
     }
 
     @GetMapping("/test")
