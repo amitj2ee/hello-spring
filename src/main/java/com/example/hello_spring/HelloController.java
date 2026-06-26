@@ -12,6 +12,11 @@ public class HelloController {
         return "Hello World from Spring Boot!";
     }
 
+    @GetMapping("/buld")
+    public String buld() {
+        return "This is a build!";
+    }
+
     @GetMapping("/test")
     public String test() {
         return "This is a test endpoint!";
